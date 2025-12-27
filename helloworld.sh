@@ -1,1 +1,5 @@
-this is hello world in shellscript first one.
+#!/bin/bash
+
+# any where aprt from first line then consider as comment.
+
+echo "Hello shell script"
