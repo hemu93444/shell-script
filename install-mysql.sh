@@ -15,3 +15,12 @@ exit 1
 else
 echo "installing my sql is success"
 fi
+
+yum install git -y
+if [ $? -ne 0 ]
+then
+echo "Error: Git installation got failed"
+exit 1
+else
+echo "Installing Git is scuccessful"
+fi
