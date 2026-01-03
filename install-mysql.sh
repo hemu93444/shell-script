@@ -8,3 +8,10 @@ else
 echo "you are root user"
 fi
 yum install mysql -y
+if [ $? -ne 0 ]
+then
+echo "Error:My sql installing is failed"
+exit 1
+else
+echo "installing my sql is success"
+fi
