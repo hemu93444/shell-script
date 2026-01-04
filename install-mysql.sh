@@ -22,5 +22,5 @@ then
 echo "Error: Git installation got failed"
 exit 1
 else
-echo "Installing Git is scuccessful"
+echo "Installing Git is scuccess
 fi
